@@ -20,7 +20,8 @@
 		.top
 		{			
 			background-color:#005cb8;
-			text-align:center;			
+			text-align:center;	
+			text-indent: 20px;		
 		}
 		
 		.topp
@@ -95,7 +96,7 @@
 			right: 30px;
 		}
 		.slider .slider-items .item img{
-			width: 100%;
+			width: 110%;
 			height: 100%;
 			display: block;
 			animation:zoom 1s ease;
@@ -108,6 +109,7 @@
 		.slider .slider-items .item{
 			display: none;
 			position: relative;
+			width: 100%;
 		}
 		.slider .slider-items .item .caption{
 			position: absolute;
@@ -127,6 +129,7 @@
 		}	
 		.slider .slider-items .item.active{
 			display: block;
+			width: 100%;
 		}
 	</style>
 </head>
@@ -157,15 +160,6 @@
 					<div class="caption"><a href = "https://www.noypigeeks.com/internet/ookla-ph-broadband-download-speed-2020/?fbclid=IwAR1KkTzO2nYwNunC4K0A2hmKQcopaCqzv2GQWhqUrT_6ec8XDcGn5N_UIgw.html" style+"color:white">
 						NOYPIGEEKS: Ookla:PH’s broadband download speed increased by 477% from 2016 to 2020
 					class="caption">Link</a></div>
-					<script type="text/javascript">
-						var elems = document.getElementsByClassName('caption');
-						var confirmIt = function (e) {
-							if (!confirm('Are you sure?')) e.preventDefault();
-						};
-						for (var i = 0, l = elems.length; i < l; i++) {
-							elems[i].addEventListener('click', confirmIt, false);
-						}
-					</script>
 				</div>
 
 				<div  class="item">
@@ -173,15 +167,6 @@
 					<div class="caption"><a href = "https://www.noypigeeks.com/internet/ookla-ph-broadband-download-speed-2020/?fbclid=IwAR1KkTzO2nYwNunC4K0A2hmKQcopaCqzv2GQWhqUrT_6ec8XDcGn5N_UIgw.html" style+"color:white">
 						NOYPIGEEKS: Ookla:PH’s broadband download speed increased by 477% from 2016 to 2020
 					class="caption">Link</a></div>
-					<script type="text/javascript">
-						var elems = document.getElementsByClassName('caption');
-						var confirmIt = function (e) {
-							if (!confirm('Are you sure?')) e.preventDefault();
-						};
-						for (var i = 0, l = elems.length; i < l; i++) {
-							elems[i].addEventListener('click', confirmIt, false);
-						}
-					</script>
 				</div>
 	
 				<div  class="item">
@@ -189,16 +174,17 @@
 					<div class="caption"><a href = "https://www.noypigeeks.com/internet/ookla-ph-broadband-download-speed-2020/?fbclid=IwAR1KkTzO2nYwNunC4K0A2hmKQcopaCqzv2GQWhqUrT_6ec8XDcGn5N_UIgw.html" style+"color:white">
 						NOYPIGEEKS: Ookla:PH’s broadband download speed increased by 477% from 2016 to 2020
 					class="caption">Link</a></div>
-					<script type="text/javascript">
-						var elems = document.getElementsByClassName('caption');
-						var confirmIt = function (e) {
-							if (!confirm('Are you sure?')) e.preventDefault();
-						};
-						for (var i = 0, l = elems.length; i < l; i++) {
-							elems[i].addEventListener('click', confirmIt, false);
-						}
-					</script>
 				</div>
+
+				<script type="text/javascript">
+					var elems = document.getElementsByClassName('caption');
+					var confirmIt = function (e) {
+						if (!confirm('Are you sure?')) e.preventDefault();
+					};
+					for (var i = 0, l = elems.length; i < l; i++) {
+						elems[i].addEventListener('click', confirmIt, false);
+					}
+				</script>
 
 			</div>
 			<div class="left-slide"><</div>
